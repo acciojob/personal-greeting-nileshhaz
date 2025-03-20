@@ -12,6 +12,7 @@ const App = () => {
       <label htmlFor="name">Enter your name:</label>
       <input type="text" id="name" onChange={handleChange} value={name} />
       <div>{name}</div>
+      
     </div>
   )
 }
